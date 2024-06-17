@@ -1309,3 +1309,45 @@ section,
   color: #555;
   margin-bottom: 15px;
 }
+.projects {
+  padding: 60px 0;
+  background: #f7f7f7;
+}
+.projects .section-title h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.projects .projects-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects .projects-content .col-lg-6 {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
+.projects h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.projects p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 15px;
+}
+.projects a.btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.projects a.btn-primary:hover {
+  background-color: #0056b3;
+}
